@@ -14,6 +14,14 @@ Hexchat plugin to control Cmus
    toggle            toggle pause/play.
    help              prints the help.
 ```
+``/notice <name> !playing`` upon receiving this notice you will send the asker the currently playing song (see ``playing``)
+
+```
+ex:
+    <user1> !playing
+    <self> I am listening to: Air - La femme d'argent
+```
+
 
 
 
@@ -23,4 +31,4 @@ Hexchat plugin to control Cmus
 - copy ``cmus_hexchat.py`` in ``~/.config/hexchat/addons/``
 
 ###Windows
-- copy ``cmus_hexchat.py`` in ``%APPDATA%\HexChat\addons\`` 
+- copy ``cmus_hexchat.py`` in ``%APPDATA%\HexChat\addons\``
