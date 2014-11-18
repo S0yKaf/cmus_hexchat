@@ -6,7 +6,7 @@ Hexchat plugin to control Cmus
 ##usage
   ``/cmus <command>``
 ``` 
-   COMMANDS          USAGE"
+   COMMANDS          USAGE
    ------------------------------
    playing           prints the currently playing song in the channel.
    next              Skip forward in playlist.
