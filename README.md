@@ -3,6 +3,20 @@ cmus_hexchat
 
 Hexchat plugin to control Cmus
 
+##usage
+  ``/cmus <command>``
+``` 
+   COMMANDS          USAGE"
+   ------------------------------
+   playing           prints the currently playing song in the channel.
+   next              Skip forward in playlist.
+   previous          Skip backwards in playlist.
+   toggle            toggle pause/play.
+   help              prints the help.
+```
+
+
+
 ## Installation
 
 ###Linux/mac
